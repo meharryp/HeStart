@@ -82,6 +82,7 @@ namespace HeStart
 
                     if (!ServerStarted)
                     {
+                        SQuery.DropCount = 0;
                         ServerStarted = true;
                     }
                 }
